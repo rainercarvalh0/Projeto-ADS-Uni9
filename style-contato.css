@@ -1,0 +1,51 @@
+body.pagina-contato {
+    background-color: #ffa500;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    background-color: white;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 50px 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #666;
+}
+
+button {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    color: #ffa500;
+    padding: 20px;
+}

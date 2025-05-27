@@ -1,0 +1,56 @@
+
+.caixa-doacao {
+    background-color: #ffa500;
+    border: 2px solid #ffeeba;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.caixa-doacao img {
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.caixa-doacao img:hover {
+    transform: scale(1.1);
+}
+
+.botao-doacao {
+    color: white;
+    background-color: #ffa500;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+
+}
+
+.botao-doacao:hover {
+    background-color: #ffa500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.15)
+    
+
+}
+.conteudo-doacao-titulo {
+    color: white;
+    text-align: center;
+
+}
+.conteudo-doacao {
+    color: #fff;
+    text-align:center;
+    font-size: medium;
+}

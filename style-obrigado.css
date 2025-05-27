@@ -1,0 +1,44 @@
+body.pagina-obrigado {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffa500;
+    font-family: Arial, sans-serif;
+}
+
+.mensagem-container {
+    flex: 1;
+    padding: 150px 20px;
+    text-align: center;
+    color: white;
+}
+
+.mensagem-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mensagem-container p {
+    font-size: 1.2rem;
+    margin-bottom: 90px;
+}
+
+.botao-voltar {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.botao-voltar:hover {
+   transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    color:black;
+    border-radius: 30px;  
+}

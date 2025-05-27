@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estilo 4 Patas</title>
+  <link rel="icon" href="imagens/logo do site.jpg"/>
+  <link rel="stylesheet" href="style-global.css" />
+  <link rel="stylesheet" href="style-contato.css" />
+</head>
+<body class="pagina-contato">
+  <header>
+    <div class="logo-site">
+      <img src="imagens/logo do site.jpg" alt="Logo do site" />
+      <span class="logo-text">Estilo 4 Patas</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="doacao.html">Doação</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <div class="form-container">
+      <h2 style="color: #ffa500;">Formulário de Contato</h2>
+      <form id="contactForm" action="https://formspree.io/f/mvganrdl" method="POST" data-redirect="obrigado.html">
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="text" name="subject" placeholder="Assunto" required>
+        <input name="message" rows="5" placeholder="Sua mensagem" required>
+        <button type="submit">Enviar</button>
+      </form>
+       <div class="success-message" id="successMessage">
+        <h3>✓ Mensagem enviada com sucesso!</h3>
+        <br>
+        <br>
+        <button onclick="window.location.href='home.html'">Voltar para a página inicial</button>
+      </div>
+      </div>
+     </main>
+     <footer class="rodapé">
+    <p>&copy; 2025 Projeto Estilo 4 Patas. Todos os direitos reservados.</p>
+    <p>Nos siga nas redes sociais:</p>
+    <a href="https://www.instagram.com/estilo4patas?igsh=MXRqazhmcnFzMTE3eg==" target="_blank" rel="noopener noreferrer">
+      <img src="imagens/logoinstagram.jpg" alt="instagram" width="27" />
+    </a>
+    <a href="https://www.facebook.com/share/1UcubkZ9qL/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+      <img src="imagens/logofacebook.jpg" alt="facebook" width="27" />
+    </a>
+    <a href="https://wa.me/5511947453644" target="_blank" rel="noopener noreferrer">
+      <img src="imagens/logowhatsapp.jpg" alt="whatsapp" width="27" />
+    </a>
+  </footer>
+   <script src="transicao.js"></script>
+  <script src="formulario2.js"></script>
+</body>
+</html>
